@@ -1,4 +1,9 @@
 Install Command
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/sharpbai/alist-storage-srv/main/alist-installer)"
+wget https://raw.githubusercontent.com/sharpbai/alist-storage-srv/main/alist-installer && bash alist-installer && rm alist-installer"
+```
+
+Uninstall Command
+```
+pkill alist && rm -r alist
 ```
